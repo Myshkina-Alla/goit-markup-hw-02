@@ -1,14 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
 :root {
   --primary-brand: #4d5ae5;
   --overlays-shadows-headings: #2e2f42;
@@ -17,6 +6,17 @@ body {
   --backgrounds: #f4f4fd;
   --ctas: #404bbf;
   --accent-color: #e7e9fc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-text);
+  background: var(--header-background);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
 .subtitle {
