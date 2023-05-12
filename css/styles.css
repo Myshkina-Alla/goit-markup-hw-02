@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -23,12 +24,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--overlays-shadows-headings);
 }
 .paragrapth {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-text);
 }
 .main-title {
   font-size: 36px;
@@ -71,9 +72,10 @@ body {
 .menu-link:focus {
   color: var(--ctas);
 }
-.phone,
-.mail {
+.header-address {
   font-style: normal;
+}
+.mail {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -83,16 +85,26 @@ body {
 .mail:focus {
   color: var(--ctas);
 }
+.phone {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+}
 .phone:hover,
 .phone:focus {
   color: var(--ctas);
 }
 
 /* Hero */
+.hero {
+  background: var(--overlays-shadows-headings);
+}
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--header-background);
   background: var(--overlays-shadows-headings);
 }
@@ -110,6 +122,12 @@ body {
 .hero-btn:focus {
   background-color: var(--ctas);
   color: var(--header-background);
+}
+/* What are we doing */
+.doing-title {
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 /* Our Team */
@@ -135,16 +153,17 @@ body {
 
 /* Portfolio */
 .navigation-portfolio-btn {
-  font-family: : "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--primary-brand);
+  background: var(--backgrounds);
 }
 .navigation-portfolio-btn:hover,
-.navigation-portfolio-btn:focus{
-    color: var(--header-background);
-    background-color: var(--ctas);
+.navigation-portfolio-btn:focus {
+  color: var(--header-background);
+  background-color: var(--ctas);
 }
