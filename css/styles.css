@@ -75,24 +75,15 @@ body {
 .header-address {
   font-style: normal;
 }
-.mail {
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
 }
-.mail:hover,
-.mail:focus {
-  color: var(--ctas);
-}
-.phone {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--body-text);
-}
-.phone:hover,
-.phone:focus {
+
+.contact-link:hover,
+.contact-link:focus {
   color: var(--ctas);
 }
 
@@ -128,6 +119,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  color: var(--overlays-shadows-headings);
 }
 
 /* Our Team */
